@@ -1,0 +1,52 @@
+html
+{
+    background-image: url("./watercolor-background-1.jpg");
+    background-size: 100% 100%;
+}
+.grid-cotainer1
+{ 
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-gap: 10px;
+    grid-row: 10px;
+}
+.grid-cotainer1 > div
+{
+    
+    
+    color: rgb(0, 0, 0);
+    
+}
+#Box1
+{
+    grid-column: 1 / span 3;
+    height: 430px;
+    font-size: 70px;
+    text-align: center;
+    background-image: url("./frame-1797351_960_720.png");
+    background-size: 100% 100%;
+}
+#Box2
+{
+    grid-column: 1 / span 1;
+    height: 3000px;
+    background-color: rgb(255, 255, 255);
+}
+#Box3
+{
+    grid-column: 2 / span 1;
+    height: 900px;
+    background-size: 100% 100%;
+}
+#Box4
+{
+    grid-column: 3 / span 1;
+    height: 3000px;
+    background-color: rgb(255, 255, 255);
+}
+#picture1
+{
+    height: 1200px;
+    width: 100%;
+}
+
